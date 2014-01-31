@@ -23,8 +23,6 @@
 		30D979A618882FC700506ADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D9798618882FC700506ADB /* Foundation.framework */; };
 		30D979A718882FC700506ADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D9798A18882FC700506ADB /* UIKit.framework */; };
 		30D979A818882FC700506ADB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D9798C18882FC700506ADB /* CoreData.framework */; };
-		30D979B018882FC700506ADB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30D979AE18882FC700506ADB /* InfoPlist.strings */; };
-		30D979B218882FC700506ADB /* Send_Info_BLE_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D979B118882FC700506ADB /* Send_Info_BLE_TestTests.m */; };
 		30D979BD18882FDE00506ADB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D979BC18882FDE00506ADB /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -59,9 +57,6 @@
 		30D9799D18882FC700506ADB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		30D979A318882FC700506ADB /* Send Info BLE TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Send Info BLE TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D979A418882FC700506ADB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		30D979AD18882FC700506ADB /* Send Info BLE TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Send Info BLE TestTests-Info.plist"; sourceTree = "<group>"; };
-		30D979AF18882FC700506ADB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		30D979B118882FC700506ADB /* Send_Info_BLE_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Send_Info_BLE_TestTests.m; sourceTree = "<group>"; };
 		30D979BB18882FDE00506ADB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		30D979BC18882FDE00506ADB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				30D9798E18882FC700506ADB /* Send Info BLE Test */,
-				30D979AB18882FC700506ADB /* Send Info BLE TestTests */,
 				30D9798518882FC700506ADB /* Frameworks */,
 				30D9798418882FC700506ADB /* Products */,
 			);
@@ -166,24 +160,6 @@
 				30D9799618882FC700506ADB /* Send Info BLE Test-Prefix.pch */,
 				302FC4AB189C06910049B38F /* Utils.h */,
 				302FC4AC189C06910049B38F /* Utils.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		30D979AB18882FC700506ADB /* Send Info BLE TestTests */ = {
-			isa = PBXGroup;
-			children = (
-				30D979B118882FC700506ADB /* Send_Info_BLE_TestTests.m */,
-				30D979AC18882FC700506ADB /* Supporting Files */,
-			);
-			path = "Send Info BLE TestTests";
-			sourceTree = "<group>";
-		};
-		30D979AC18882FC700506ADB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				30D979AD18882FC700506ADB /* Send Info BLE TestTests-Info.plist */,
-				30D979AE18882FC700506ADB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -272,7 +248,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D979B018882FC700506ADB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D979B218882FC700506ADB /* Send_Info_BLE_TestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,14 +289,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				30D9799218882FC700506ADB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		30D979AE18882FC700506ADB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30D979AF18882FC700506ADB /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
