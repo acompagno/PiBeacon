@@ -18,4 +18,4 @@ PiBeacon
 	- [BlueZ](http://www.bluez.org/)
 	- [IOGEAR Bluetooth 4.0 Dongle](http://www.iogear.com/product/GBU521/)
 - IPhone 5
-	- The oldest iPhone that has Bluetooth 4.0 is the iPhone 4S.
+	- An iOS device that supports Bluetooth 4.0 is required to configure the iBeacon
