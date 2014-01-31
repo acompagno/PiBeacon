@@ -10,7 +10,7 @@ PiBeacon
 	- Great breakdown of the iBeacon profile 
 - [piBeacon - DIY iBeacon with a Raspberry Pi](http://learn.adafruit.com/pibeacon-ibeacon-with-a-raspberry-pi/setting-up-the-pi)
 	- Great tutorial on setting up your Raspberry Pi as an iBeacon
-	- Also exmaplains how to install BlueZ on the RaspBerry Pi
+	- Also explains how to install BlueZ on the Raspberry Pi
 
 ##Equipment Used
 - Raspberry Pi 
