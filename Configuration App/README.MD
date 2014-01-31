@@ -11,9 +11,9 @@ Configuration Application
 
 ##How to use the app
 - When the app is started up, it will display 2 
-![SCREENSHOT]()
+![SCREENSHOT](https://raw.github.com/acompagno/PiBeacon/master/Images/AppScreenshots/1.PNG)
 - When the desired cpnfigurations are set, press "Send info". This will make an AlertView appear. This means that the device is advertising the selected configuration. At this point, you have to run the scripts on the Raspberry Pi so it can receive the configuration
-![SCREENSHOT]()
+![SCREENSHOT](https://raw.github.com/acompagno/PiBeacon/master/Images/AppScreenshots/2.PNG)
 
 ##Notes 
 - Default values 
